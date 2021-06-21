@@ -1,0 +1,26 @@
+{
+  "name": "whitesource-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "task/WssTask.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.4.13",
+    "aws-sdk": "^2.649.0",
+    "azure-pipelines-task-lib": "^2.9.6",
+    "object.values": "^1.0.4",
+    "request": "2.88.2",
+    "vso-node-api": "^5.1.2",
+    "vss-web-extension-sdk": "^5.141.0",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
